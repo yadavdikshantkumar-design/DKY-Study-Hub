@@ -1,7 +1,8 @@
 name = "dky-study-hub-api"
 main = "index.js"
 compatibility_date = "2026-10-17"
-
+[vars]
+ALLOWED_ORIGIN = "https://yadavdikshantkumar-design.github.io"
 # Add these in Cloudflare dashboard as Worker settings:
 # Variable: ALLOWED_ORIGIN = https://YOUR-USERNAME.github.io
 # Secret: YOUTUBE_API_KEY = your newly rotated YouTube Data API v3 key
